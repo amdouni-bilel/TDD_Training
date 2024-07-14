@@ -23,4 +23,16 @@ describe('WordStatisticsComponent', () => {
     const result = component.getAverageWordLength(sentence);
     expect(result).toBe(1);
   });
+
+  it('should return 4 for the sentence "test case"', () => {
+    const sentence = 'test case';
+    const result = component.getAverageWordLength(sentence);
+    expect(result).toBe(4);
+  });
+
+  it('should return 3 for the sentence "this is a test"', () => {
+    const sentence = 'this is a test';
+    const result = component.getAverageWordLength(sentence);
+    expect(result).toBe(3);
+  });
 });
