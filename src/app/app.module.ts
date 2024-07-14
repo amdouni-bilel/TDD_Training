@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello/hello.component';
 import { DogYearsConverterComponent } from './dog-years-converter/dog-years-converter.component';
+import { WordStatisticsComponent } from './word-statistics/word-statistics.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HelloComponent,
-    DogYearsConverterComponent
+    DogYearsConverterComponent,
+    WordStatisticsComponent
   ],
   imports: [
     BrowserModule,
