@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello/hello.component';
 import { DogYearsConverterComponent } from './dog-years-converter/dog-years-converter.component';
 import { WordStatisticsComponent } from './word-statistics/word-statistics.component';
+import { TimeToWordsComponent } from './time-to-words/time-to-words.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HelloComponent,
     DogYearsConverterComponent,
-    WordStatisticsComponent
+    WordStatisticsComponent,
+    TimeToWordsComponent
   ],
   imports: [
     BrowserModule,
