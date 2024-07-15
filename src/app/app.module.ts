@@ -8,6 +8,8 @@ import { DogYearsConverterComponent } from './dog-years-converter/dog-years-conv
 import { WordStatisticsComponent } from './word-statistics/word-statistics.component';
 import { TimeToWordsComponent } from './time-to-words/time-to-words.component';
 import { NameFormatterComponent } from './name-formatter/name-formatter.component';
+import { LeapYearComponent } from './leap-year/leap-year.component';
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -16,12 +18,14 @@ import { NameFormatterComponent } from './name-formatter/name-formatter.componen
     DogYearsConverterComponent,
     WordStatisticsComponent,
     TimeToWordsComponent,
-    NameFormatterComponent
+    NameFormatterComponent,
+    LeapYearComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        FormsModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

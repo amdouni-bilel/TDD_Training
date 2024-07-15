@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-leap-year',
+  templateUrl: './leap-year.component.html',
+  styleUrls: ['./leap-year.component.css']
 })
-export class AppComponent {
-  title = 'demo-front';
+export class LeapYearComponent {
 
   yearToCheck: any;
   isLeap: any;
@@ -18,6 +17,5 @@ export class AppComponent {
       this.isLeap = false;
     }
   }
-
 
 }
