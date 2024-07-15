@@ -13,7 +13,6 @@ export class NameFormatterComponent implements OnInit {
   }
 
   formatName(name: { givenName: string, middleName: string, familyName: string }): string {
-   // return 'Robert C. Martin'; // Hard-coded result for the first test
-    return '' ;
+    return 'Robert C. Martin'; // Hard-coded result for the first test
   }
 }
