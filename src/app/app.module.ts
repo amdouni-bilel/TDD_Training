@@ -11,6 +11,7 @@ import { NameFormatterComponent } from './name-formatter/name-formatter.componen
 import { LeapYearComponent } from './leap-year/leap-year.component';
 import {FormsModule} from "@angular/forms";
 import { AverageComponent } from './average/average.component';
+import { PasswordValidatorComponent } from './password-validator/password-validator.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { AverageComponent } from './average/average.component';
     TimeToWordsComponent,
     NameFormatterComponent,
     LeapYearComponent,
-    AverageComponent
+    AverageComponent,
+    PasswordValidatorComponent
   ],
     imports: [
         BrowserModule,
