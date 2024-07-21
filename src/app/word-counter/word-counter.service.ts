@@ -1,3 +1,4 @@
+/*
 import { Injectable } from '@angular/core';
 
 @Injectable({
@@ -28,3 +29,4 @@ export class WordCounterService {
     return listOfWords.length;
   }
 }
+*/
