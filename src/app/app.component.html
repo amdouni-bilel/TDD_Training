@@ -1,9 +1,7 @@
-<!--<router-outlet></router-outlet>-->
-<div>
-  <label for="yearInput">Enter a year:</label>
-  <input type="number" id="yearInput" [(ngModel)]="yearToCheck">
-  <button (click)="checkLeapYear()">Check Leap Year</button>
-  <p *ngIf="yearToCheck !== undefined && yearToCheck !== null">
-    {{ yearToCheck }} is {{ isLeap ? 'a leap year.' : 'not a leap year.' }}
-  </p>
-</div>
+<!-- app.component.html -->
+<nav>
+  <a routerLink="/leap-year">Leap Year Checker</a><br>
+  <a routerLink="/average">Average Calculator</a>
+</nav>
+<router-outlet></router-outlet>
+

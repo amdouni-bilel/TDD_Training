@@ -10,6 +10,7 @@ import { TimeToWordsComponent } from './time-to-words/time-to-words.component';
 import { NameFormatterComponent } from './name-formatter/name-formatter.component';
 import { LeapYearComponent } from './leap-year/leap-year.component';
 import {FormsModule} from "@angular/forms";
+import { AverageComponent } from './average/average.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import {FormsModule} from "@angular/forms";
     WordStatisticsComponent,
     TimeToWordsComponent,
     NameFormatterComponent,
-    LeapYearComponent
+    LeapYearComponent,
+    AverageComponent
   ],
     imports: [
         BrowserModule,
